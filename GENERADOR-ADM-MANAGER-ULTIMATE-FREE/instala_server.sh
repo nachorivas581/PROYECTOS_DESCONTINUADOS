@@ -55,8 +55,8 @@ echo -e "\033[1;32m ° INSTALANDO RECURSOS DE SYSTEMA...\033[0m"
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;32m Aguarde...\033[1;32m"
 
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/Server/adm-server.tgz > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/Server/bin.tgz > /dev/null 2>&1
+wget https://raw.githubusercontent.com/nachorivas581/PROYECTOS_DESCONTINUADOS/master/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/Server/adm-server.tgz > /dev/null 2>&1
+wget https://raw.githubusercontent.com/nachorivas581/PROYECTOS_DESCONTINUADOS/master/GENERADOR-ADM-MANAGER-ULTIMATE-FREE/Server/bin.tgz > /dev/null 2>&1
 tar xvfz /root/adm-server.tgz > /dev/null 2>&1
 tar xvfz /root/bin.tgz > /dev/null 2>&1
 rm -rf /root/adm-server.tgz > /dev/null 2>&1
@@ -80,7 +80,7 @@ wget -O trans https://www.dropbox.com/s/l6iqf5xjtjmpdx5/trans?dl=0 -o /dev/null 
 mv -f ./trans /bin/ && chmod 777 /bin/*
 echo -e "\033[1;35m ° VERIFICADO\033[0m"
 
-echo -e "\033[1;36mwget https://www.dropbox.com/s/sb82ddp9fjcg1ub/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
+echo -e "\033[1;36m wget https://www.dropbox.com/s/sb82ddp9fjcg1ub/apt-source.sh && chmod 777 ./* && ./apt-*" > /dev/null 2>&1
 
 echo -e "\033[1;36m=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "\033[1;33m ° Perfecto, Utilice el comando \033[1;31mautoonline\033[0m"
